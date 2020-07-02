@@ -13,6 +13,6 @@ Note that the cost/error function and parameter values shown correspond to the m
 
 The method of optimization in the code with scipy can be changed based on the type of data that is being analysed.
 
-It is important to ensure that all features are arranged column wise, with the 'y' data in the last column, and all the features are labelled.
+If the features and output values are not labelled -- pd.read_csv('Filename',header=none) 
 
 The code only performs linear regression using a first degree model. A more generalized code that will offer higher degrees of the model is being worked on.
